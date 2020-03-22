@@ -856,8 +856,13 @@
 				CODE_SIGN_ENTITLEMENTS = iTorrent/iTorrent.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Automatic;
+<<<<<<< HEAD
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 16.0;
+=======
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 14.0;
+>>>>>>> 2f57c6aa9c5126e4a936d1634ed328a59ab53eff
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = UP44NK3DF2;
 				ENABLE_BITCODE = NO;
@@ -891,7 +896,11 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = ru.nonamedude.iTorrent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "VS: WildCard Development";
+<<<<<<< HEAD
+				PROVISIONING_PROFILE_SPECIFIER = Wildcard;
+=======
+				PROVISIONING_PROFILE_SPECIFIER = "";
+>>>>>>> 2f57c6aa9c5126e4a936d1634ed328a59ab53eff
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/iTorrent.framework/Headers/iTorrent-Bridging-Header.h";
